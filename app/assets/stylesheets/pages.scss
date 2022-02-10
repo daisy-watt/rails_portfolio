@@ -1,0 +1,249 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+    font-family: 'Playfair Display', serif
+}
+.pagewrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh; 
+    width: 100vw;
+}
+.pagewrap img {
+    display: inline-flex;
+    max-height: 40%;
+}
+
+/* top nav stuff */
+.vertical-menu {
+    width: 98%;
+    font-family: 'Playfair Display', serif;
+    font-size: 90%;
+  }
+.vertical-menu:main-tab {
+    color: #00b35fdc;
+  }
+    .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-align: right;
+    text-decoration: none;
+    border-style: none none solid;
+    border-width: 1px;
+    font-family: 'Playfair Display', serif;
+    }
+    .vertical-menu a:active {
+        color: #00b35fdc;
+    }
+    .vertical-menu a:hover {
+        color: #00b35fdc;
+    }
+    .vertical-menu a.main-tab {
+    background-color: #eee;
+    text-decoration-color: #00b35fdc;
+    text-align: left;
+    border-style: none none solid;
+    border-width: 1px;
+    font-family: 'Playfair Display', serif;
+  }
+ 
+/* end of nav stuff  */
+body {
+   background-color: #eee;
+   font-family: 'Playfair Display', serif;
+  }
+.project-image {
+    width: 400px
+} 
+
+  /* about section  */
+.about-card {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: .5px solid black;
+    padding-block: 1%;
+    font-family: 'Playfair Display', serif;
+    }
+    .about-card img {
+    max-width: 40%;
+    display: inline-flex;
+    }
+    .about-card p {
+    font-family: 'Playfair Display', serif;
+    display: inline-flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    }
+    .about-card h3 {
+    font-family: 'Playfair Display', serif;
+    text-align: right;
+    padding-right: 5%;
+    }
+    .about-card h6 {
+    font-family: 'Playfair Display', serif;
+    text-align: right;
+    padding-left: 2%;
+    }
+    .about-card a {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 80%;
+    color: black;
+    padding-left: 2%;
+    }
+    .about-card a:hover {
+    color: #00b35fdc;
+    }
+/* work links */
+.work-links {
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-size: 80%; 
+    }
+    .work-links h3 {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    padding-left: 1%;
+    }
+    .work-links a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-align: left;
+    text-decoration: none;
+    border-style: none none dotted;
+    border-width: 1px;
+    font-family: 'Playfair Display', serif
+    }
+        .work-links a:active {
+        color: #00b35fdc;
+        }
+        .work-links a:hover {
+        color: #00b35fdc;
+        }
+    /* .input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  } */
+/* feed section  */
+.portfolio-section {
+    width: 95%;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: .5px solid black;
+    padding-block: 1%;
+    font-family: 'Playfair Display', serif;
+}
+.portfolio-section img {
+    max-width: 40%;
+    display: inline-flex;
+}
+.portfolio-section h3 {
+    font-family: 'Playfair Display', serif;
+    text-align: right;
+    padding-left: 2%;
+}
+.portfolio-section p {
+    font-family: 'Playfair Display', serif;
+    display: inline-flex;
+    padding-left: 2%;
+}
+/* feed posts */
+.feed-posts {
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-size: 80%;
+    padding-right: 4%;
+}
+.feed-posts a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    padding-right: 4%;
+    border-style: none none dotted;
+    border-width: 1px;
+    font-family: 'Playfair Display', serif
+}
+.feed-posts a:active {
+    color: #00b35fdc;
+}
+.feed-posts a:hover {
+    color: #00b35fdc;
+    }
+.feed-posts time {
+    text-align: right;
+    padding-right: 4%;
+}
+.feed-posts img {
+    height: 15vh;
+    width: 15vw;
+    padding-top: 4%;
+    display: flex;
+    align-items: flex-end;
+}
+/* contact page  */
+input[type=submit] {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    float: right;
+    font-family: 'Playfair Display', serif
+    }
+.row {
+    display: flex;
+    align-items: flex-start;
+}
+.poem-window {
+    float: left;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+  }
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif
+      }
+/* fotter kinda thing  */
+.footer-box {
+        border-top: .5px solid black;
+        padding-block: 1%;
+    }
+    h5 {
+        font-family: 'Playfair Display', serif;
+        text-align: right; 
+    }
+    .footer-box h6{
+        font-family: 'Playfair Display', serif;
+        display: block;
+        text-align: left;
+    }
+    .footer-box h5{
+        font-family: 'Playfair Display', serif;
+        display: block;
+        text-align: right;
+        border-bottom: .5px solid black;
+    }
+    .footer-box a:link {
+    color: #00b35fdc;
+
+    }
+    @media screen and (max-width: 480px) {
+        .about-card img {
+            width: 95%;
+            align-items: flex-start;
+        }
+    }
